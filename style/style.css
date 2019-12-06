@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    background-color: #33cc99;
+    color: white;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+}
+
+ 
+ #mic{
+        width: 40px;
+        height: 40px;
+        background-color: #f73838;
+        border-radius: 40px; padding: 10px;
+    }
+
+     #mic:hover{
+         cursor: pointer;
+         background-color: #fff;
+     }
+
+     #mic .icon{
+         display:block;
+         width: 40px;
+         height: 40px;
+         background-image: url("bt-microphone.png");
+         background-size: contain;
+     }
+    #mic:hover .icon{
+        cursor: pointer;
+        background-image: url("bt-microphone-rec.png");
+        background: #D01F1F;
+        box-shadow: 0 0 10px #D01F1F, 0 0 40px #D01F1F, 0 0 80px #D01F1F
+    }
+
+     #header{
+         background-color: #000;
+         width: 100%;
+         height: 40px;
+     }
+     
+     a {
+        position: relative;
+        display: inline-block;
+        padding: 15px 30px;
+        color: #2196f3;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 24px;
+        overflow: hidden;
+        transition: 0.2;
+        text-decoration: none;
+    }
+    
+    a:hover{
+        color: #255784;
+        background: #2196f3;
+        box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    }
+   
