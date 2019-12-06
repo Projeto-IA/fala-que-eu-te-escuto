@@ -37,10 +37,10 @@
 
             switch (resultSpeak.toLowerCase()) {
                 case 'clarear':
-                    document.body.style.backgroundColor = '#33cc99';
+                    document.body.style.backgroundColor = '#88BFCD';
                     break;
                 case 'escurecer':
-                    document.body.style.backgroundColor = '#047751';
+                    document.body.style.backgroundColor = '#255784';
                     break;
             }
 
@@ -68,10 +68,10 @@
 
             switch (resultSpeak.toLowerCase()) {
                 case 'clarear':
-                    document.body.style.backgroundColor = '#33cc99';
+                    document.body.style.backgroundColor = '#88BFCD';
                     break;
                 case 'escurecer':
-                    document.body.style.backgroundColor = '#047751';
+                    document.body.style.backgroundColor = '#255784';
                     break;
             }
 
@@ -99,10 +99,10 @@
 
             switch (resultSpeak.toLowerCase()) {
                 case 'clarear':
-                    document.body.style.backgroundColor = '#33cc99';
+                    document.body.style.backgroundColor = '#88BFCD';
                     break;
                 case 'escurecer':
-                    document.body.style.backgroundColor = '#047751';
+                    document.body.style.backgroundColor = '#255784';
                     break;
             }
 
@@ -130,10 +130,10 @@
 
             switch (resultSpeak.toLowerCase()) {
                 case 'clarear':
-                    document.body.style.backgroundColor = '#33cc99';
+                    document.body.style.backgroundColor = '#88BFCD';
                     break;
                 case 'escurecer':
-                    document.body.style.backgroundColor = '#047751';
+                    document.body.style.backgroundColor = '#255784';
                     break;
             }
             // Obtém a data/hora atual

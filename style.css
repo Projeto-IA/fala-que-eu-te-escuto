@@ -9,7 +9,7 @@
 
 body {
     font-family: sans-serif;
-    background-color: #33cc99;
+    background-color: #2B3255;
     color: white;
     transition: background-color 1s;
     -webkit-transition: background-color 1s;
@@ -41,7 +41,7 @@ body {
     border-radius: 50%;
     margin: 0 auto;
     background-color: white;
-    color: #33cc99;
+    color: #2B3255;
     border: 8px solid #ECF7F3;
     cursor: pointer;
     font-size: 1em;
@@ -69,4 +69,44 @@ body {
     font-weight: 700;
     font-size: 1.2em;
     margin-top: 40px;
+    font-family: Consolas;
+    letter-spacing: 2px;
+}
+
+a {
+    position: relative;
+    justify-content: center;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+a span{
+    position: absolute;
+    display: block; 
+}
+
+a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent);
+}
+
+h1{
+    font-family: "Georgia";
+
 }
